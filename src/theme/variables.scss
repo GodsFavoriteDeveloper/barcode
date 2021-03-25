@@ -1,15 +1,107 @@
 // Ionic Variables and Theming. For more info, please see:
 // http://ionicframework.com/docs/theming/
 
+/* barlow-100 - latin */
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 100;
+  src: url('../assets/fonts/barlow-v4-latin-100.eot'); /* IE9 Compat Modes */
+  src: local('Barlow Thin'), local('Barlow-Thin'),
+       url('../assets/fonts/barlow-v4-latin-100.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../assets/fonts/barlow-v4-latin-100.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../assets/fonts/barlow-v4-latin-100.woff') format('woff'), /* Modern Browsers */
+       url('../assets/fonts/barlow-v4-latin-100.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../assets/fonts/barlow-v4-latin-100.svg#Barlow') format('svg'); /* Legacy iOS */
+}
+/* barlow-200 - latin */
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 200;
+  src: url('../assets/fonts/barlow-v4-latin-200.eot'); /* IE9 Compat Modes */
+  src: local('Barlow ExtraLight'), local('Barlow-ExtraLight'),
+       url('../assets/fonts/barlow-v4-latin-200.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../assets/fonts/barlow-v4-latin-200.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../assets/fonts/barlow-v4-latin-200.woff') format('woff'), /* Modern Browsers */
+       url('../assets/fonts/barlow-v4-latin-200.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../assets/fonts/barlow-v4-latin-200.svg#Barlow') format('svg'); /* Legacy iOS */
+}
+/* barlow-300 - latin */
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../assets/fonts/barlow-v4-latin-300.eot'); /* IE9 Compat Modes */
+  src: local('Barlow Light'), local('Barlow-Light'),
+       url('../assets/fonts/barlow-v4-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../assets/fonts/barlow-v4-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../assets/fonts/barlow-v4-latin-300.woff') format('woff'), /* Modern Browsers */
+       url('../assets/fonts/barlow-v4-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../assets/fonts/barlow-v4-latin-300.svg#Barlow') format('svg'); /* Legacy iOS */
+}
+/* barlow-regular - latin */
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../assets/fonts/barlow-v4-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Barlow Regular'), local('Barlow-Regular'),
+       url('../assets/fonts/barlow-v4-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../assets/fonts/barlow-v4-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../assets/fonts/barlow-v4-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../assets/fonts/barlow-v4-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../assets/fonts/barlow-v4-latin-regular.svg#Barlow') format('svg'); /* Legacy iOS */
+}
+/* barlow-500 - latin */
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../assets/fonts/barlow-v4-latin-500.eot'); /* IE9 Compat Modes */
+  src: local('Barlow Medium'), local('Barlow-Medium'),
+       url('../assets/fonts/barlow-v4-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../assets/fonts/barlow-v4-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../assets/fonts/barlow-v4-latin-500.woff') format('woff'), /* Modern Browsers */
+       url('../assets/fonts/barlow-v4-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../assets/fonts/barlow-v4-latin-500.svg#Barlow') format('svg'); /* Legacy iOS */
+}
+/* barlow-600 - latin */
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../assets/fonts/barlow-v4-latin-600.eot'); /* IE9 Compat Modes */
+  src: local('Barlow SemiBold'), local('Barlow-SemiBold'),
+       url('../assets/fonts/barlow-v4-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../assets/fonts/barlow-v4-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../assets/fonts/barlow-v4-latin-600.woff') format('woff'), /* Modern Browsers */
+       url('../assets/fonts/barlow-v4-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../assets/fonts/barlow-v4-latin-600.svg#Barlow') format('svg'); /* Legacy iOS */
+}
+/* barlow-700 - latin */
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../assets/fonts/barlow-v4-latin-700.eot'); /* IE9 Compat Modes */
+  src: local('Barlow Bold'), local('Barlow-Bold'),
+       url('../assets/fonts/barlow-v4-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../assets/fonts/barlow-v4-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../assets/fonts/barlow-v4-latin-700.woff') format('woff'), /* Modern Browsers */
+       url('../assets/fonts/barlow-v4-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../assets/fonts/barlow-v4-latin-700.svg#Barlow') format('svg'); /* Legacy iOS */
+}
+
 /** Ionic CSS Variables **/
 :root {
   /** primary **/
-  --ion-color-primary: #3880ff;
-  --ion-color-primary-rgb: 56, 128, 255;
+  --ion-color-primary: #0f3a85;
+  --ion-color-primary-rgb: 15,58,133;
   --ion-color-primary-contrast: #ffffff;
-  --ion-color-primary-contrast-rgb: 255, 255, 255;
-  --ion-color-primary-shade: #3171e0;
-  --ion-color-primary-tint: #4c8dff;
+  --ion-color-primary-contrast-rgb: 255,255,255;
+  --ion-color-primary-shade: #0d3375;
+  --ion-color-primary-tint: #274e91;
 
   /** secondary **/
   --ion-color-secondary: #3dc2ff;
@@ -74,6 +166,9 @@
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+
+  --ion-font-family:  'Barlow'!important;
+  font-family:  'Barlow' !important;
 }
 
 @media (prefers-color-scheme: dark) {
